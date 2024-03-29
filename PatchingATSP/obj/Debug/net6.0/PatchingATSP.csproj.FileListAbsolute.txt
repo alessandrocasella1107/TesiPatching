@@ -1,0 +1,61 @@
+C:\Users\catan\OneDrive\Desktop\Implementazione Tesi\PatchingATSP\obj\Debug\net6.0\PatchingATSP.csproj.AssemblyReference.cache
+C:\Users\catan\OneDrive\Desktop\Implementazione Tesi\PatchingATSP\obj\Debug\net6.0\PatchingATSP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\catan\OneDrive\Desktop\Implementazione Tesi\PatchingATSP\obj\Debug\net6.0\PatchingATSP.AssemblyInfoInputs.cache
+C:\Users\catan\OneDrive\Desktop\Implementazione Tesi\PatchingATSP\obj\Debug\net6.0\PatchingATSP.AssemblyInfo.cs
+C:\Users\catan\OneDrive\Desktop\Implementazione Tesi\PatchingATSP\obj\Debug\net6.0\PatchingATSP.csproj.CoreCompileInputs.cache
+C:\Users\catan\OneDrive\Desktop\Implementazione Tesi\PatchingATSP\bin\Debug\net6.0\PatchingATSP.exe
+C:\Users\catan\OneDrive\Desktop\Implementazione Tesi\PatchingATSP\bin\Debug\net6.0\PatchingATSP.deps.json
+C:\Users\catan\OneDrive\Desktop\Implementazione Tesi\PatchingATSP\bin\Debug\net6.0\PatchingATSP.runtimeconfig.json
+C:\Users\catan\OneDrive\Desktop\Implementazione Tesi\PatchingATSP\bin\Debug\net6.0\PatchingATSP.dll
+C:\Users\catan\OneDrive\Desktop\Implementazione Tesi\PatchingATSP\bin\Debug\net6.0\PatchingATSP.pdb
+C:\Users\catan\OneDrive\Desktop\Implementazione Tesi\PatchingATSP\bin\Debug\net6.0\ILOG.Concert.dll
+C:\Users\catan\OneDrive\Desktop\Implementazione Tesi\PatchingATSP\bin\Debug\net6.0\ILOG.CPLEX.dll
+C:\Users\catan\OneDrive\Desktop\Implementazione Tesi\PatchingATSP\bin\Debug\net6.0\ILOG.Concert.xml
+C:\Users\catan\OneDrive\Desktop\Implementazione Tesi\PatchingATSP\bin\Debug\net6.0\ILOG.CPLEX.xml
+C:\Users\catan\OneDrive\Desktop\Implementazione Tesi\PatchingATSP\obj\Debug\net6.0\PatchingATSP.dll
+C:\Users\catan\OneDrive\Desktop\Implementazione Tesi\PatchingATSP\obj\Debug\net6.0\refint\PatchingATSP.dll
+C:\Users\catan\OneDrive\Desktop\Implementazione Tesi\PatchingATSP\obj\Debug\net6.0\PatchingATSP.pdb
+C:\Users\catan\OneDrive\Desktop\Implementazione Tesi\PatchingATSP\obj\Debug\net6.0\PatchingATSP.genruntimeconfig.cache
+C:\Users\catan\OneDrive\Desktop\Implementazione Tesi\PatchingATSP\obj\Debug\net6.0\ref\PatchingATSP.dll
+C:\Users\catan\OneDrive\Desktop\Implementazione Tesi\PatchingATSP\obj\Debug\net6.0\Patching.E8F68B16.Up2Date
+C:\Users\catan\OneDrive\Desktop\tesi\Tesi\PatchingATSP\bin\Debug\net6.0\PatchingATSP.exe
+C:\Users\catan\OneDrive\Desktop\tesi\Tesi\PatchingATSP\bin\Debug\net6.0\PatchingATSP.deps.json
+C:\Users\catan\OneDrive\Desktop\tesi\Tesi\PatchingATSP\bin\Debug\net6.0\PatchingATSP.runtimeconfig.json
+C:\Users\catan\OneDrive\Desktop\tesi\Tesi\PatchingATSP\bin\Debug\net6.0\PatchingATSP.dll
+C:\Users\catan\OneDrive\Desktop\tesi\Tesi\PatchingATSP\bin\Debug\net6.0\PatchingATSP.pdb
+C:\Users\catan\OneDrive\Desktop\tesi\Tesi\PatchingATSP\bin\Debug\net6.0\ILOG.Concert.dll
+C:\Users\catan\OneDrive\Desktop\tesi\Tesi\PatchingATSP\bin\Debug\net6.0\ILOG.CPLEX.dll
+C:\Users\catan\OneDrive\Desktop\tesi\Tesi\PatchingATSP\bin\Debug\net6.0\ILOG.Concert.xml
+C:\Users\catan\OneDrive\Desktop\tesi\Tesi\PatchingATSP\bin\Debug\net6.0\ILOG.CPLEX.xml
+C:\Users\catan\OneDrive\Desktop\tesi\Tesi\PatchingATSP\obj\Debug\net6.0\PatchingATSP.csproj.AssemblyReference.cache
+C:\Users\catan\OneDrive\Desktop\tesi\Tesi\PatchingATSP\obj\Debug\net6.0\PatchingATSP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\catan\OneDrive\Desktop\tesi\Tesi\PatchingATSP\obj\Debug\net6.0\PatchingATSP.AssemblyInfoInputs.cache
+C:\Users\catan\OneDrive\Desktop\tesi\Tesi\PatchingATSP\obj\Debug\net6.0\PatchingATSP.AssemblyInfo.cs
+C:\Users\catan\OneDrive\Desktop\tesi\Tesi\PatchingATSP\obj\Debug\net6.0\PatchingATSP.csproj.CoreCompileInputs.cache
+C:\Users\catan\OneDrive\Desktop\tesi\Tesi\PatchingATSP\obj\Debug\net6.0\PatchingATSP.sourcelink.json
+C:\Users\catan\OneDrive\Desktop\tesi\Tesi\PatchingATSP\obj\Debug\net6.0\Patching.E8F68B16.Up2Date
+C:\Users\catan\OneDrive\Desktop\tesi\Tesi\PatchingATSP\obj\Debug\net6.0\PatchingATSP.dll
+C:\Users\catan\OneDrive\Desktop\tesi\Tesi\PatchingATSP\obj\Debug\net6.0\refint\PatchingATSP.dll
+C:\Users\catan\OneDrive\Desktop\tesi\Tesi\PatchingATSP\obj\Debug\net6.0\PatchingATSP.pdb
+C:\Users\catan\OneDrive\Desktop\tesi\Tesi\PatchingATSP\obj\Debug\net6.0\PatchingATSP.genruntimeconfig.cache
+C:\Users\catan\OneDrive\Desktop\tesi\Tesi\PatchingATSP\obj\Debug\net6.0\ref\PatchingATSP.dll
+C:\Users\catan\OneDrive\Desktop\PatchingATSP\bin\Debug\net6.0\PatchingATSP.exe
+C:\Users\catan\OneDrive\Desktop\PatchingATSP\bin\Debug\net6.0\PatchingATSP.deps.json
+C:\Users\catan\OneDrive\Desktop\PatchingATSP\bin\Debug\net6.0\PatchingATSP.runtimeconfig.json
+C:\Users\catan\OneDrive\Desktop\PatchingATSP\bin\Debug\net6.0\PatchingATSP.dll
+C:\Users\catan\OneDrive\Desktop\PatchingATSP\bin\Debug\net6.0\PatchingATSP.pdb
+C:\Users\catan\OneDrive\Desktop\PatchingATSP\bin\Debug\net6.0\ILOG.Concert.dll
+C:\Users\catan\OneDrive\Desktop\PatchingATSP\bin\Debug\net6.0\ILOG.CPLEX.dll
+C:\Users\catan\OneDrive\Desktop\PatchingATSP\bin\Debug\net6.0\ILOG.Concert.xml
+C:\Users\catan\OneDrive\Desktop\PatchingATSP\bin\Debug\net6.0\ILOG.CPLEX.xml
+C:\Users\catan\OneDrive\Desktop\PatchingATSP\obj\Debug\net6.0\PatchingATSP.csproj.AssemblyReference.cache
+C:\Users\catan\OneDrive\Desktop\PatchingATSP\obj\Debug\net6.0\PatchingATSP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\catan\OneDrive\Desktop\PatchingATSP\obj\Debug\net6.0\PatchingATSP.AssemblyInfoInputs.cache
+C:\Users\catan\OneDrive\Desktop\PatchingATSP\obj\Debug\net6.0\PatchingATSP.AssemblyInfo.cs
+C:\Users\catan\OneDrive\Desktop\PatchingATSP\obj\Debug\net6.0\PatchingATSP.csproj.CoreCompileInputs.cache
+C:\Users\catan\OneDrive\Desktop\PatchingATSP\obj\Debug\net6.0\Patching.E8F68B16.Up2Date
+C:\Users\catan\OneDrive\Desktop\PatchingATSP\obj\Debug\net6.0\PatchingATSP.dll
+C:\Users\catan\OneDrive\Desktop\PatchingATSP\obj\Debug\net6.0\refint\PatchingATSP.dll
+C:\Users\catan\OneDrive\Desktop\PatchingATSP\obj\Debug\net6.0\PatchingATSP.pdb
+C:\Users\catan\OneDrive\Desktop\PatchingATSP\obj\Debug\net6.0\PatchingATSP.genruntimeconfig.cache
+C:\Users\catan\OneDrive\Desktop\PatchingATSP\obj\Debug\net6.0\ref\PatchingATSP.dll

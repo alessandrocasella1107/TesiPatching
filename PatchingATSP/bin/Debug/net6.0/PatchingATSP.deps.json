@@ -1,0 +1,53 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "PatchingATSP/1.0.0": {
+        "dependencies": {
+          "ILOG.Concert": "20.1.0.0",
+          "ILOG.CPLEX": "20.1.0.0"
+        },
+        "runtime": {
+          "PatchingATSP.dll": {}
+        }
+      },
+      "ILOG.Concert/20.1.0.0": {
+        "runtime": {
+          "ILOG.Concert.dll": {
+            "assemblyVersion": "20.1.0.0",
+            "fileVersion": "20.1.0.0"
+          }
+        }
+      },
+      "ILOG.CPLEX/20.1.0.0": {
+        "runtime": {
+          "ILOG.CPLEX.dll": {
+            "assemblyVersion": "20.1.0.0",
+            "fileVersion": "20.1.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PatchingATSP/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ILOG.Concert/20.1.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ILOG.CPLEX/20.1.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
