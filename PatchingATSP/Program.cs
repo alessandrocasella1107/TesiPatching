@@ -35,29 +35,47 @@ namespace ATSP_Patching
 
 
 
-            var soluzioneAP = SolveAPCplex.solve(n, c);
-            double result = (soluzioneAP.Item2 - soluzioneAP.Item1) / soluzioneAP.Item1;
+            //var soluzioneAP = SolveAPCplex.solve(n, c);
+            //double result = (soluzioneAP.Item2 - soluzioneAP.Item1) / soluzioneAP.Item1;
 
-            Console.WriteLine($"La deviazione dal lower bound è: {result}");
-            //EseguiAlgoritmo(10, 10, list_errori10nodi);
-            //EseguiAlgoritmo(10, 15, list_errori15nodi);
-            //EseguiAlgoritmo(10, 20, list_errori20nodi);
-            //EseguiAlgoritmo(10, 25, list_errori25nodi);
-            //EseguiAlgoritmo(10, 30, list_errori30nodi);
-            //EseguiAlgoritmo(10, 35, list_errori35nodi);
-            //EseguiAlgoritmo(10, 40, list_errori40nodi);
-            //EseguiAlgoritmo(10, 45, list_errori45nodi);
-            //EseguiAlgoritmo(10, 50, list_errori50nodi);
+            //Console.WriteLine($"La deviazione dal lower bound è: {result}");
+            EseguiAlgoritmo(10, 10, list_errori10nodi);
+            EseguiAlgoritmo(10, 15, list_errori15nodi);
+            EseguiAlgoritmo(10, 20, list_errori20nodi);
+            EseguiAlgoritmo(10, 25, list_errori25nodi);
+            EseguiAlgoritmo(10, 30, list_errori30nodi);
+            EseguiAlgoritmo(10, 35, list_errori35nodi);
+            EseguiAlgoritmo(10, 40, list_errori40nodi);
+            EseguiAlgoritmo(10, 45, list_errori45nodi);
+            EseguiAlgoritmo(10, 50, list_errori50nodi);
 
-            //Console.WriteLine("L'errore medio in 10 matrici composte da 10 nodi è: " + CalculateAverage(list_errori10nodi));
-            //Console.WriteLine("L'errore medio in 10 matrici composte da 15 nodi è: " + CalculateAverage(list_errori15nodi));
-            //Console.WriteLine("L'errore medio in 10 matrici composte da 20 nodi è: " + CalculateAverage(list_errori20nodi));
-            //Console.WriteLine("L'errore medio in 10 matrici composte da 25 nodi è: " + CalculateAverage(list_errori25nodi));
-            //Console.WriteLine("L'errore medio in 10 matrici composte da 30 nodi è: " + CalculateAverage(list_errori30nodi));
-            //Console.WriteLine("L'errore medio in 10 matrici composte da 35 nodi è: " + CalculateAverage(list_errori35nodi));
-            //Console.WriteLine("L'errore medio in 10 matrici composte da 40 nodi è: " + CalculateAverage(list_errori40nodi));
-            //Console.WriteLine("L'errore medio in 10 matrici composte da 45 nodi è: " + CalculateAverage(list_errori45nodi));
-            //Console.WriteLine("L'errore medio in 10 matrici composte da 50 nodi è: " + CalculateAverage(list_errori50nodi));
+            //Console.WriteLine("L'errore medio in 10 matrici composte da 10 nodi è: " + CalculateAverage(list_errori10nodi) + "%");
+            //Console.WriteLine("L'errore medio in 10 matrici composte da 15 nodi è: " + CalculateAverage(list_errori15nodi) + "%");
+            //Console.WriteLine("L'errore medio in 10 matrici composte da 20 nodi è: " + CalculateAverage(list_errori20nodi) + "%");
+            //Console.WriteLine("L'errore medio in 10 matrici composte da 25 nodi è: " + CalculateAverage(list_errori25nodi) + "%");
+            //Console.WriteLine("L'errore medio in 10 matrici composte da 30 nodi è: " + CalculateAverage(list_errori30nodi) + "%");
+            //Console.WriteLine("L'errore medio in 10 matrici composte da 35 nodi è: " + CalculateAverage(list_errori35nodi) + "%");
+            //Console.WriteLine("L'errore medio in 10 matrici composte da 40 nodi è: " + CalculateAverage(list_errori40nodi) + "%");
+            //Console.WriteLine("L'errore medio in 10 matrici composte da 45 nodi è: " + CalculateAverage(list_errori45nodi) + "%");
+            //Console.WriteLine("L'errore medio in 10 matrici composte da 50 nodi è: " + CalculateAverage(list_errori50nodi) + "%");
+
+            int[] nodi = { 10, 15, 20, 25, 30, 35, 40, 45, 50 };
+            double[] errori = { CalculateAverage(list_errori10nodi),
+                            CalculateAverage(list_errori15nodi),
+                            CalculateAverage(list_errori20nodi),
+                            CalculateAverage(list_errori25nodi),
+                            CalculateAverage(list_errori30nodi),
+                            CalculateAverage(list_errori35nodi),
+                            CalculateAverage(list_errori40nodi),
+                            CalculateAverage(list_errori45nodi),
+                            CalculateAverage(list_errori50nodi) };
+
+            Console.WriteLine("{0,-15} {1,-15}", "Numero nodi", "Errore medio");
+
+            for (int i = 0; i < nodi.Length; i++)
+            {
+                Console.WriteLine("{0,-15} {1,-15}%", nodi[i], errori[i]);
+            }
         }
 
 
@@ -75,7 +93,7 @@ namespace ATSP_Patching
                 sum += number;
             }
 
-            return sum / numbers.Count;
+            return (sum / numbers.Count) * 100;
         }
 
 
