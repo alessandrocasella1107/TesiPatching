@@ -49,7 +49,7 @@ namespace PatchingATSP
 
                     //vincoli di grado primi due
                     for (int j = 0; j < n; j++)
-                    {//degree constraints.
+                    {
                         ILinearNumExpr exp = cplex.LinearNumExpr();
                         for (int i = 0; i < n; i++)
                         {
@@ -62,7 +62,7 @@ namespace PatchingATSP
                     }
 
                     for (int i = 0; i < n; i++)
-                    {//degree constraints.
+                    {
                         ILinearNumExpr exp = cplex.LinearNumExpr();
                         for (int j = 0; j < n; j++)
                         {
@@ -93,7 +93,6 @@ namespace PatchingATSP
 
                                 if (x[i][j] != null && cplex.GetValue(x[i][j]) != 0)
                                 {
-                                    //Console.WriteLine($"x[{i}][{j}] = {cplex.GetValue(x[i][j])}");
                                     soluzione[i][j] = 1;
                                 }
                             }
@@ -112,11 +111,6 @@ namespace PatchingATSP
                         {
                             valoreOttimoPatch = CalculateCost(sottocicli[0], m);
                         }
-                        //foreach (var sottociclo in ciclo)
-                        //{
-                        //    Console.WriteLine(sottociclo + " ");
-                        //}
-                        //Console.WriteLine(CalculateCost(ciclo, m));
 
 
                         return Tuple.Create(valoreOttimoAP,valoreOttimoPatch);
@@ -143,10 +137,8 @@ namespace PatchingATSP
                 List<Tuple<int, int>> rigaLista = new List<Tuple<int, int>>();
                 for (int i = 0; i < soluzione.Length; i++)
                 {
-                    // Itera attraverso ogni elemento della riga
                     for (int j = 0; j < soluzione[i].Length; j++)
                     {
-                        // Se il valore è 1, aggiungi la tupla con gli indici di riga e colonna
                         if (soluzione[i][j] == 1)
                         {
                             rigaLista.Add(new Tuple<int, int>(i, j));
@@ -158,10 +150,8 @@ namespace PatchingATSP
             }
             else
             {
-                // Itera su tutti i nodi
                 for (int i = 0; i < soluzione.Length; i++)
                 {
-                    // Se il nodo non è stato visitato, avvia la ricerca di un sottociclo
                     if (!visitati.Contains(i))
                     {
                         var sottociclo = new List<Tuple<int, int>>();
@@ -179,23 +169,18 @@ namespace PatchingATSP
 
         static bool TrovaSottociclo(int nodoCorrente, int nodoIniziale, double[][] soluzione, HashSet<int> visitati, List<Tuple<int, int>> sottociclo)
         {
-            // Itera su tutti i nodi
             for (int j = 0; j < soluzione[nodoCorrente].Length; j++)
             {
-                // Verifica se esiste un arco tra il nodo corrente e il nodo j
                 if (soluzione[nodoCorrente][j] != 0)
                 {
                     if (j == nodoIniziale)
                     {
-                        // Se torniamo al nodo iniziale, abbiamo trovato un sottociclo
                         sottociclo.Add(Tuple.Create(nodoCorrente, j));
                         return true;
                     }
 
-                    // Verifica se il nodo j è già stato visitato
                     if (!visitati.Contains(j))
                     {
-                        // Aggiungi il nodo j ai visitati e continua la ricerca
                         visitati.Add(j);
                         sottociclo.Add(Tuple.Create(nodoCorrente, j));
                         if (TrovaSottociclo(j, nodoIniziale, soluzione, visitati, sottociclo))
@@ -237,15 +222,12 @@ namespace PatchingATSP
                         secondLargestSubcycle = new List<Tuple<int, int>>(cycle);
                     }
                 }
-                // Merge the two largest subcycles
                 mergedSubcycle = MergeSubcycles(largestSubcycle, secondLargestSubcycle, costMatrix);
 
-                // Remove the merged subcycles from the original list
                 subcycles.RemoveAll(cycle => AreListsEqual(cycle, largestSubcycle) || AreListsEqual(cycle, secondLargestSubcycle));
 
 
 
-                // Add the merged subcycle to the list
                 subcycles.Add(mergedSubcycle);
 
             }
@@ -345,7 +327,6 @@ namespace PatchingATSP
             int numCols = soluzione[0].Length;
             bool[] visited = new bool[numRows];
 
-            // Trova il nodo di partenza (quello con una connessione in uscita)
             int startNode = -1;
             for (int i = 0; i < numRows; i++)
             {
@@ -366,16 +347,13 @@ namespace PatchingATSP
                 }
             }
 
-            // Se non c'è un nodo di partenza, il ciclo non può essere chiuso
             if (startNode == -1)
             {
                 return false;
             }
 
-            // Visita tutti i nodi attraverso il ciclo
             VisitNode(soluzione, visited, startNode, startNode);
 
-            // Controlla se tutti i nodi sono stati visitati
             foreach (bool visitato in visited)
             {
                 if (!visitato)
@@ -389,10 +367,8 @@ namespace PatchingATSP
 
         static void VisitNode(double[][] soluzione, bool[] visited, int currentNode, int startNode)
         {
-            // Segna il nodo corrente come visitato
             visited[currentNode] = true;
 
-            // Visita tutti i nodi connessi non ancora visitati
             for (int i = 0; i < soluzione[currentNode].Length; i++)
             {
                 if (soluzione[currentNode][i] == 1 && !visited[i])
@@ -401,7 +377,6 @@ namespace PatchingATSP
                 }
             }
 
-            // Se siamo tornati al nodo di partenza, segna il nodo di partenza come visitato
             if (currentNode == startNode)
             {
                 visited[startNode] = true;
